@@ -1,0 +1,45 @@
+html, body {
+ font-family: sans-serif;
+ text-align: center;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+}
+header {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.Header-links-ul {
+ width: 60%;
+ list-style: none;
+ display: flex;
+ justify-content: space-around;
+}
+.header-link {
+ padding: 0.4rem;
+ border-radius: 2px;
+ cursor: pointer;
+}
+.header-link:hover {
+ border-bottom: 1px solid white;
+}
+main {
+ padding: 2rem;
+ font-size: 1rem;
+}
+.title {
+ font-size: 3rem;
+}
+
+body.dark-mode {
+ background-color: #121212;
+ color: #ffffff;
+}
+.dark-mode header {
+ background-color: #1e1e1e;
+}
+.dark-mode .header-link:hover {
+ border-bottom: 1px solid #ffffff;
+}
