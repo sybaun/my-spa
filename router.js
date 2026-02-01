@@ -66,11 +66,12 @@ function RenderGalleryPage() {
         <div class="gallery">
             ${Array.from({ length: 9 }).map((_, i) => `
                 <img 
-                    src="images/${i+1}.jpg" 
+                    src="./images/${i+1}.jpg" 
                     class="gallery-img lazy"
                     height="300" width="300"
                 />
             `).join('')}
+            
         </div>
 
         <div id="modal" class="modal">
