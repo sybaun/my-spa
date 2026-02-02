@@ -80,7 +80,7 @@ function RenderGalleryPage() {
         </div>
     `;
 
-    initLazyLoading();
+    // initLazyLoading();
     initModal();
 }
 
@@ -93,7 +93,6 @@ function popStateHandler() {
  if (loc === pageUrls.gallery) { RenderGalleryPage(); }
 }
 window.onpopstate = popStateHandler; 
-
 
 
 document.getElementById('theme-toggle').addEventListener('click', () => {
