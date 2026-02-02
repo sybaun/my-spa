@@ -1,3 +1,7 @@
+// github https://github.com/sybaun/my-spa
+// github Pages https://sybaun.github.io/my-spa/
+
+
 let pageUrls = {
  about: '/index.html?about',
  contact:'/index.html?contact',
@@ -66,7 +70,7 @@ function RenderGalleryPage() {
         <div class="gallery">
             ${Array.from({ length: 9 }).map((_, i) => `
                 <img 
-                    src="./images/${i+1}.jpg" 
+                    src="https://picsum.photos/seed/${i}/400/300" 
                     class="gallery-img lazy"
                     height="300" width="300"
                 />
